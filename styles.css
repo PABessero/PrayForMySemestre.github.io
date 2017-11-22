@@ -77,7 +77,19 @@ h2{
  * les images du site.
  * ********************************/
 
-.img1{
+.metiersImagesJobs{
+    height: 300px;
+    width: 300px;
+}
+
+.metiersImagesJobs:hover{
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.accueilImageEquipe{
     height:150px;
     width: 150px;
     margin-top: 50px;
@@ -85,35 +97,35 @@ h2{
     float: left;
 }
 
-.img1:hover{
+.accueilImageEquipe:hover{
     transform: rotate(360deg);
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease;
 }
     
-.img2{
+.accueilImageJobs{
     height:150px;
     width: 150px;
     margin-top: 150px;
     margin-right: 24px;
     float: right}
     
-.img2:hover{
+.accueilImageJobs:hover{
     transform: rotate(360deg);
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease;
 }
     
-.img3{
+.accueilImageInterview{
     height:150px;
     width: 150px;
     margin-top: 150px;
     margin-left: 15px;
     float: left}
     
-.img3:hover{
+.accueilImageInterview:hover{
     transform: rotate(360deg);
     transition-property: all;
     transition-duration: 1s;
@@ -146,7 +158,7 @@ h2{
  * présentations (accueil).
  * ********************************/
 
-.div1{
+.texteSurDroite{
     background-color: #212121;
     color: #FFFFFF;
     text-align: left;
@@ -158,7 +170,7 @@ h2{
     border-radius: 50px;
 }
 
-.div2{
+.texteSurGauche{
     background-color: #212121;
     color: #FFFFFF;
     text-align: right;
