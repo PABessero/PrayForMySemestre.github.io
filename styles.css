@@ -1,0 +1,190 @@
+/***********************************
+ * Attribut concernant la page dans
+ * son ensemble.
+ * ********************************/
+
+#maPage{
+    font-family: 'PT Serif', serif;
+    font-size: larger;
+    text-align: center;
+    color: #3F3F3F;}
+
+/***********************************
+ * Cette partie concerne le menu
+ * de navigation.
+ * ********************************/
+
+nav{
+	background-color: #AAAAAA;
+	text-align: center;
+	padding: 5px;
+    margin: auto;}
+    
+nav li{
+	display: inline;
+	margin: 5px 20px;}
+    
+nav a{
+	color: #2B2B2B;
+	text-decoration: none;
+    padding: 20px;}
+    
+/***********************************
+ * Cette partie concerne les
+ * animations du menu de navigation.
+ * ********************************/
+
+nav a:hover{
+    background-color: #282828;
+    text-decoration: underline;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    color: #FFFFFF;}
+    
+/***********************************
+ * Cette partie concerne le corps
+ * principal du site.
+ * ********************************/
+
+body{
+    background-color: #1E1E1E;
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
+
+footer {
+	padding-top: 50px;
+    clear: right;
+    clear: left;}
+    
+/***********************************
+ * Cette partie concerne les
+ * différentes balises.
+ * ********************************/
+
+h1{
+    padding: 75px 0px 75px 0px;}
+    
+h2{
+    margin-top: 50px;
+}
+    
+/***********************************
+ * Cette partie concerne toutes
+ * les images du site.
+ * ********************************/
+
+.metiersImagesJobs{
+    height: 300px;
+    width: 300px;
+}
+
+.metiersImagesJobs:hover{
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.accueilImageEquipe{
+    height:150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 15px;
+    float: left;
+}
+
+.accueilImageEquipe:hover{
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+    
+.accueilImageJobs{
+    height:150px;
+    width: 150px;
+    margin-top: 150px;
+    margin-right: 24px;
+    float: right}
+    
+.accueilImageJobs:hover{
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+    
+.accueilImageInterview{
+    height:150px;
+    width: 150px;
+    margin-top: 150px;
+    margin-left: 15px;
+    float: left}
+    
+.accueilImageInterview:hover{
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.entreprise{
+    height: 100px;
+    width: 100px;
+}
+
+.entrepriseSuperU{
+    height: 100px;
+    width: 150px;
+}
+
+.entrepriseMC{
+    border-radius:100px;
+    height: 100px;
+    width: 100px;   
+}
+
+.entrepriseUniv{
+    height: 90px;
+    width: 90px;    
+}
+    
+/***********************************
+ * Cette partie concerne des
+ * présentations (accueil).
+ * ********************************/
+
+.texteSurDroite{
+    background-color: #212121;
+    color: #FFFFFF;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 180px;
+    margin-top: 100px;
+    padding: 15px;
+    border: 1px #212121 solid;
+    border-radius: 50px;
+}
+
+.texteSurGauche{
+    background-color: #212121;
+    color: #FFFFFF;
+    text-align: right;
+    margin-left: 50px;
+    margin-right: 180px;
+    margin-top: 100px;
+    padding: 15px;
+    border: 1px #212121 solid;
+    border-radius: 50px;
+}
+
+#entrepriseSpan{
+    margin-top: 50px;
+    vertical-align: middle;
+    position: relative;
+    display:inline-block;
+}
