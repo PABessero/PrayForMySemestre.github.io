@@ -73,6 +73,15 @@ h2{
     margin-top: 50px;
 }
 
+figure
+{
+  display : inline;
+}
+
+section
+{
+  display: inline;
+}
 /***********************************
  * Cette partie concerne toutes
  * les images du site.
@@ -202,6 +211,7 @@ h2{
 }
 
 #devinfo{
+    padding: 75px 0px 75px 0px;
     margin-left: 400px;
 }
 
@@ -212,4 +222,9 @@ h2{
 #auteur{
     text-align: right;
     padding-top: 100px;
+}
+
+#left
+{
+    float: left;
 }
