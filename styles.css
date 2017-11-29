@@ -19,16 +19,16 @@ nav{
 	text-align: center;
 	padding: 5px;
     margin: auto;}
-    
+
 nav li{
 	display: inline;
 	margin: 5px 20px;}
-    
+
 nav a{
 	color: #2B2B2B;
 	text-decoration: none;
     padding: 20px;}
-    
+
 /***********************************
  * Cette partie concerne les
  * animations du menu de navigation.
@@ -41,7 +41,7 @@ nav a:hover{
     transition-duration: 1s;
     transition-timing-function: ease;
     color: #FFFFFF;}
-    
+
 /***********************************
  * Cette partie concerne le corps
  * principal du site.
@@ -59,7 +59,7 @@ footer {
 	padding-top: 50px;
     clear: right;
     clear: left;}
-    
+
 /***********************************
  * Cette partie concerne les
  * différentes balises.
@@ -67,11 +67,11 @@ footer {
 
 h1{
     padding: 75px 0px 75px 0px;}
-    
+
 h2{
     margin-top: 50px;
 }
-    
+
 /***********************************
  * Cette partie concerne toutes
  * les images du site.
@@ -103,28 +103,28 @@ h2{
     transition-duration: 1s;
     transition-timing-function: ease;
 }
-    
+
 .accueilImageJobs{
     height:150px;
     width: 150px;
     margin-top: 50px;
     margin-right: 24px;
     float: right}
-    
+
 .accueilImageJobs:hover{
     transform: rotate(360deg);
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease;
 }
-    
+
 .accueilImageInterview{
     height:150px;
     width: 150px;
     margin-top: 50px;
     margin-left: 15px;
     float: left}
-    
+
 .accueilImageInterview:hover{
     transform: rotate(360deg);
     transition-property: all;
@@ -145,14 +145,14 @@ h2{
 .entrepriseMC{
     border-radius:100px;
     height: 100px;
-    width: 100px;   
+    width: 100px;
 }
 
 .entrepriseUniv{
     height: 90px;
-    width: 90px;    
+    width: 90px;
 }
-    
+
 /***********************************
  * Cette partie concerne des
  * présentations (accueil).
@@ -182,7 +182,7 @@ h2{
     border-radius: 50px;
 }
 
-#entrepriseSpan{
+.entrepriseSpan{
     margin-top: 50px;
     vertical-align: middle;
     position: relative;
