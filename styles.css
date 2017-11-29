@@ -3,11 +3,10 @@
  * son ensemble.
  * ********************************/
 
-#maPage{
-    font-family: 'PT Serif', serif;
-    font-size: larger;
-    text-align: center;
-    color: #3F3F3F;}
+.middle{
+  font-size: larger;
+  text-align: center;
+}
 
 /***********************************
  * Cette partie concerne le menu
@@ -48,8 +47,10 @@ nav a:hover{
  * ********************************/
 
 body{
+    font-family: 'PT Serif', serif;
+    color: #3F3F3F;
     background-color: #1E1E1E;
-    background-image: url("background.jpg");
+    background-image: url("images/background.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -187,4 +188,28 @@ h2{
     vertical-align: middle;
     position: relative;
     display:inline-block;
+}
+
+/***********************************
+ * Cette partie concerne la page
+ * de la fiche metier
+ * developpeur_info.
+ * ********************************/
+
+.devinfo{
+    width: 140px;
+    margin-left: 180px;
+}
+
+#devinfo{
+    margin-left: 400px;
+}
+
+#text{
+    margin-left: 220px
+}
+
+#auteur{
+    text-align: right;
+    padding-top: 100px;
 }
