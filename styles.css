@@ -77,11 +77,6 @@ figure
 {
   display : inline;
 }
-
-section
-{
-  display: inline;
-}
 /***********************************
  * Cette partie concerne toutes
  * les images du site.
@@ -199,6 +194,11 @@ section
     display:inline-block;
 }
 
+.inline
+{
+  display: inline;
+}
+
 /***********************************
  * Cette partie concerne la page
  * de la fiche metier
@@ -227,4 +227,10 @@ section
 #left
 {
     float: left;
+}
+
+#devimg
+{
+  display: inline;
+  float: left;
 }
