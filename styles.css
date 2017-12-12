@@ -314,3 +314,191 @@ textarea {
       padding-top: 10%;
       padding-bottom: 15%;
   }
+
+  /***********************************
+   * Cette partie concerne la page
+   * de la fiche metier
+   * chef de projet.
+   * ********************************/
+  .chefpro{
+      width: 140px;
+      margin-left: 180px;
+  }
+
+  #chefpro{
+      padding: 75px 0px 75px 0px;
+      margin-left: 400px;
+  }
+
+  #left
+  {
+      float: left;
+  }
+
+  #chefimg
+  {
+    display: inline;
+    float: left;
+  }
+
+  /***********************************
+   * Cette partie concerne la page
+   * de la fiche metier
+   * gestionnaire de base de données.
+   * ********************************/
+  .gestionbd{
+      width: 140px;
+      margin-left: 180px;
+  }
+
+  #gestionbd{
+      padding: 75px 0px 75px 0px;
+      margin-left: 400px;
+  }
+
+  #left
+  {
+      float: left;
+  }
+
+  #gdbdimg
+  {
+    display: inline;
+    float: left;
+  }
+
+  /***********************************
+   * Cette partie concerne la page
+   * de la fiche metier
+   * développeur WEB.
+   * ********************************/
+
+  .devweb{
+      width: 140px;
+      margin-left: 180px;
+  }
+
+  #devweb{
+      padding: 75px 0px 75px 0px;
+      margin-left: 400px;
+  }
+
+  #left
+  {
+      float: left;
+  }
+
+  #webimg
+  {
+    display: inline;
+    float: left;
+  }
+
+  /***********************************
+   * Cette partie concerne la page
+   * de la fiche metier
+   * architecte réseaux.
+   * ********************************/
+
+  .archires{
+      width: 140px;
+      margin-left: 180px;
+  }
+
+  #archires{
+      padding: 75px 0px 75px 0px;
+      margin-left: 400px;
+  }
+
+  #left
+  {
+      float: left;
+  }
+
+  #archiresimg
+  {
+    display: inline;
+    float: left;
+  }
+
+  /***********************************
+   * Cette partie concerne la page
+   * de la fiche metier
+   * administrateur réseaux.
+   * ********************************/
+
+  .adminres{
+      width: 140px;
+      margin-left: 180px;
+  }
+
+  #adminres{
+      padding: 75px 0px 75px 0px;
+      margin-left: 400px;
+  }
+
+  #left
+  {
+      float: left;
+  }
+
+  #adminresimg
+  {
+    display: inline;
+    float: left;
+    width: 300px;
+  }
+
+  /***********************************
+   * Cette partie concerne la page
+   * de la fiche metier
+   * game designer.
+   * ********************************/
+
+  .game{
+      width: 140px;
+      margin-left: 180px;
+  }
+
+  #game{
+      padding: 75px 0px 75px 0px;
+      margin-left: 400px;
+  }
+
+  #left
+  {
+      float: left;
+  }
+
+  #gameimg
+  {
+    display: inline;
+    float: left;
+  }
+
+  /***********************************
+   * Cette partie concerne la page
+   * de la fiche metier
+   * ingenieur ia.
+   * ********************************/
+
+  .ia{
+      width: 140px;
+      margin-left: 180px;
+  }
+
+  #ia{
+      padding: 75px 0px 75px 0px;
+      margin-left: 400px;
+  }
+
+  #left
+  {
+      float: left;
+  }
+
+  #iaimg
+  {
+    display: inline;
+    float: left;
+  }
