@@ -599,3 +599,90 @@ font-size: smaller;
 font-style: italic;
 margin-top: -10px;
 }
+
+/***********************************
+ * Cette partie concerne des
+ * presentations (equipe).
+ * ********************************/
+/*partie section page*/
+#equipe
+{
+    width: 90%;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Partie photo*/
+
+#equipe img
+{
+
+  width:300px;
+    height:300px;
+  overflow:hidden;
+    -webkit-border-radius:260px;
+    -moz-border-radius:260px;
+    border-radius:260px;
+    border: 5px #600110 solid;
+
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+
+    display: block;
+
+    margin: auto;
+
+}
+
+
+#equipe img:hover
+{
+
+   width: 500px;
+    height: 500px;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
+}
+
+#equipe article
+{
+
+    display: block;
+    width: 50%;
+    height: 50%;
+
+    text-align: center;
+    margin: auto;
+
+}
+
+#equipe .droite
+{
+    float: left;
+
+    clear: left;
+}
+
+#equipe .gauche
+{
+    float: right;
+
+
+}
+
+#equipe .centre
+{
+    display: block;
+    width: 550px;
+    height: 550px;
+    margin: auto;
+}
+
+#equipe article p
+{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
