@@ -479,6 +479,33 @@ textarea {
   /***********************************
    * Cette partie concerne la page
    * de la fiche metier
+   * sound designer.
+   * ********************************/
+
+  .sound{
+      width: 140px;
+      margin-left: 180px;
+  }
+
+  #sound{
+      padding: 75px 0px 75px 0px;
+      margin-left: 400px;
+  }
+
+  #left
+  {
+      float: left;
+  }
+
+  #soundimg
+  {
+    display: inline;
+    float: left;
+  }
+
+  /***********************************
+   * Cette partie concerne la page
+   * de la fiche metier
    * ingenieur ia.
    * ********************************/
 
