@@ -687,3 +687,30 @@ margin-top: -10px;
     margin-left: auto;
     margin-right: auto;
 }
+
+/***********************************
+ * Cette partie concerne la page
+ * de la fiche metier
+ * prof info.
+ * ********************************/
+
+.prof{
+    width: 140px;
+    margin-left: 180px;
+}
+
+#prof{
+    padding: 75px 0px 75px 0px;
+    margin-left: 400px;
+}
+
+#left
+{
+    float: left;
+}
+
+#profimg
+{
+  display: inline;
+  float: left;
+}
