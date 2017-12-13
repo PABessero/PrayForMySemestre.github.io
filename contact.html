@@ -1,37 +1,51 @@
 <!DOCTYPE html>
-
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
-        <title>Nous contacter</title>
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <title>CDIN | Projet</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
 
-    <main>
+  <body id="maPage">
 
-      <header>
-          <h1>Projet CDIN | Le futur de l'Informatique</h1>
-          <nav>
-              <ul>
-                  <li><a href="index.html">Accueil</a></li>
-                  <li><a href="equipe.html">L'Équipe</a></li>
-                  <li><a href="actualite.html">Actualité</a></li>
-                  <li><a href="metiers.html">Métiers</a></li>
-                  <li><a href="interview.html">Interview</a></li>
-              </ul>
-          </nav>
-      </header>
+        <header>
+            <h1>Projet CDIN | Les Métiers de l'Informatique</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="equipe.html">L'Équipe</a></li>
+                    <li><a href="metiers.html">Métiers</a></li>
+                    <li><a href="interview.html">Interview</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <div id="contacts">
-            <body>
-                 <div class="typeform-widget" data-url="https://pab5.typeform.com/to/bOAngh" style="width: 100%; height: 500px;" > </div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" > powered by <a href="https://www.typeform.com//?utm_campaign=bOAngh&amp;utm_source=typeform.com-11344490-Basic&amp;utm_medium=typeform&amp;utm_content=typeform-embedded-poweredbytypeform&amp;utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
-            </body>
-        </div>
-    </main>
-    <footer class="middle">
-      <p>© DreamTeam - 2017 - Tous droits réservés -
-      <a href="contact.html">Contact</a></p>
-    </footer>
+        <h2>Nous Contacter</h2>
+        <form action="fichier.php" method="post">
+          <div>
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="user_name" placeholder="Nom Prénom">
+          </div>
+
+          <div>
+            <label for="mail">Mail :</label>
+            <input type="email" id="mail" name="user_email" placeholder="exemple@exemple.fr">
+          </div>
+
+          <div>
+            <label for="sujet">Sujet :</label>
+            <input type="text" id="sujet" name="user_sujet" placeholder="Demande d'information">
+          </div>
+
+          <div>
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message" placeholder="Votre message ..."></textarea>
+          </div>
+
+          <div class="button">
+        <button type="submit">Envoyer</button>
+      </div>
+    </form>
+  </body>
 </html>
