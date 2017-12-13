@@ -220,7 +220,8 @@ figure
 }
 
 #text{
-    margin-left: 220px
+    margin-left: 220px;
+    line-height: 250%;
 }
 
 #auteur{
