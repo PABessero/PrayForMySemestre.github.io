@@ -167,7 +167,7 @@ figure
     width: 90px;
 }
 
-a figure{
+.left{
   display : inline;
   float: left;
   clear: right;
@@ -175,6 +175,12 @@ a figure{
   padding-top: 50px;
 }
 
+.right{
+display : inline;
+float: right;
+padding-right: 15%;
+padding-top: 50px;
+}
 /***********************************
  * Cette partie concerne des
  * présentations (accueil).
