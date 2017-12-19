@@ -167,6 +167,14 @@ figure
     width: 90px;
 }
 
+a figure{
+  display : inline;
+  float: left;
+  clear: right;
+  padding-left: 15%;
+  padding-top: 50px;
+}
+
 /***********************************
  * Cette partie concerne des
  * présentations (accueil).
@@ -609,6 +617,7 @@ margin-top: -10px;
 #equipe
 {
     width: 90%;
+    margin-top: 2%;
 
     margin-right: auto;
     margin-left: auto;
@@ -650,7 +659,7 @@ margin-top: -10px;
 
 #equipe article
 {
-
+    margin-top: 5%;
     display: inline-block;
     width: 50%;
     height: 50%;
@@ -669,7 +678,6 @@ margin-top: -10px;
 #equipe .gauche
 {
     float: right;
-    clear: right;
 }
 
 #equipe .centre
