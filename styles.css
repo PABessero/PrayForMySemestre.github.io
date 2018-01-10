@@ -72,7 +72,8 @@ footer {
  * ********************************/
 
 h1{
-    padding: 75px 0px 75px 0px;}
+    padding: 75px 0px 75px 0px;
+    font-variant: small-caps;}
 
 h2{
     margin-top: 50px;
@@ -91,6 +92,21 @@ figure
  * les images du site.
  * ********************************/
 
+ .left{
+   display : inline;
+   float: left;
+   clear: right;
+   padding-left: 15%;
+   padding-top: 50px;
+ }
+
+ .right{
+ display : inline;
+ float: right;
+ padding-right: 15%;
+ padding-top: 50px;
+ }
+
 .metiersImagesJobs{
     height: 300px;
     width: 300px;
@@ -102,11 +118,10 @@ figure
     transition-duration: 1s;
     transition-timing-function: ease;
 }
-
 .accueilImageEquipe{
     height:150px;
     width: 150px;
-    margin-top: 50px;
+    margin-top: 15px;
     margin-left: 15px;
     float: left;
 }
@@ -118,12 +133,31 @@ figure
     transition-timing-function: ease;
 }
 
-.accueilImageJobs{
+.liens{
+  text-decoration: none;
+}
+
+.accueilImageActualite{
     height:150px;
     width: 150px;
     margin-top: 50px;
-    margin-right: 24px;
-    float: right}
+    margin-right: 15px;
+    float: right;
+}
+
+.accueilImageActualite:hover{
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.accueilImageJobs{
+    height:150px;
+    width: 150px;
+    margin-top: 25px;
+    margin-left: 24px;
+    float: left}
 
 .accueilImageJobs:hover{
     transform: rotate(360deg);
@@ -135,9 +169,9 @@ figure
 .accueilImageInterview{
     height:150px;
     width: 150px;
-    margin-top: 50px;
-    margin-left: 15px;
-    float: left}
+    margin-top: 25px;
+    margin-right: 15px;
+    float: right;}
 
 .accueilImageInterview:hover{
     transform: rotate(360deg);
@@ -167,20 +201,6 @@ figure
     width: 90px;
 }
 
-.left{
-  display : inline;
-  float: left;
-  clear: right;
-  padding-left: 15%;
-  padding-top: 50px;
-}
-
-.right{
-display : inline;
-float: right;
-padding-right: 15%;
-padding-top: 50px;
-}
 /***********************************
  * Cette partie concerne des
  * présentations (accueil).
@@ -196,6 +216,7 @@ padding-top: 50px;
     padding: 0px 15px 0px;
     border: 1px #212121 solid;
     border-radius: 50px;
+
 }
 
 .texteSurGauche{
@@ -330,222 +351,281 @@ textarea {
       padding-bottom: 15%;
   }
 
-  /***********************************
-   * Cette partie concerne la page
-   * de la fiche metier
-   * chef de projet.
-   * ********************************/
-  .chefpro{
-      width: 140px;
-      margin-left: 180px;
-  }
+/***********************************
+ * Cette partie concerne la page
+ * de la fiche metier
+ * chef de projet.
+ * ********************************/
+.chefpro{
+    width: 140px;
+    margin-left: 180px;
+}
 
-  #chefpro{
-      padding: 75px 0px 75px 0px;
-      margin-left: 400px;
-  }
+#chefpro{
+    padding: 75px 0px 75px 0px;
+    margin-left: 400px;
+}
 
-  #left
-  {
-      float: left;
-  }
-
-  #chefimg
-  {
-    display: inline;
+#left
+{
     float: left;
-  }
+}
 
-  /***********************************
-   * Cette partie concerne la page
-   * de la fiche metier
-   * gestionnaire de base de données.
-   * ********************************/
-  .gestionbd{
-      width: 140px;
-      margin-left: 180px;
-  }
+#chefimg
+{
+  display: inline;
+  float: left;
+}
 
-  #gestionbd{
-      padding: 75px 0px 75px 0px;
-      margin-left: 400px;
-  }
+/***********************************
+ * Cette partie concerne la page
+ * de la fiche metier
+ * gestionnaire de base de données.
+ * ********************************/
+.gestionbd{
+    width: 140px;
+    margin-left: 180px;
+}
 
-  #left
-  {
-      float: left;
-  }
+#gestionbd{
+    padding: 75px 0px 75px 0px;
+    margin-left: 400px;
+}
 
-  #gdbdimg
-  {
-    display: inline;
+#left
+{
     float: left;
-  }
+}
 
-  /***********************************
-   * Cette partie concerne la page
-   * de la fiche metier
-   * développeur WEB.
-   * ********************************/
+#gdbdimg
+{
+  display: inline;
+  float: left;
+}
 
-  .devweb{
-      width: 140px;
-      margin-left: 180px;
-  }
+/***********************************
+ * Cette partie concerne la page
+ * de la fiche metier
+ * développeur WEB.
+ * ********************************/
 
-  #devweb{
-      padding: 75px 0px 75px 0px;
-      margin-left: 400px;
-  }
+.devweb{
+    width: 140px;
+    margin-left: 180px;
+}
 
-  #left
-  {
-      float: left;
-  }
+#devweb{
+    padding: 75px 0px 75px 0px;
+    margin-left: 400px;
+}
 
-  #webimg
-  {
-    display: inline;
+#left
+{
     float: left;
-  }
+}
 
-  /***********************************
-   * Cette partie concerne la page
-   * de la fiche metier
-   * architecte réseaux.
-   * ********************************/
+#webimg
+{
+  display: inline;
+  float: left;
+}
 
-  .archires{
-      width: 140px;
-      margin-left: 180px;
-  }
+/***********************************
+ * Cette partie concerne la page
+ * de la fiche metier
+ * architecte réseaux.
+ * ********************************/
 
-  #archires{
-      padding: 75px 0px 75px 0px;
-      margin-left: 400px;
-  }
+.archires{
+    width: 140px;
+    margin-left: 180px;
+}
 
-  #left
-  {
-      float: left;
-  }
+#archires{
+    padding: 75px 0px 75px 0px;
+    margin-left: 400px;
+}
 
-  #archiresimg
-  {
-    display: inline;
+#left
+{
     float: left;
-  }
+}
 
-  /***********************************
-   * Cette partie concerne la page
-   * de la fiche metier
-   * administrateur réseaux.
-   * ********************************/
+#archiresimg
+{
+  display: inline;
+  float: left;
+}
 
-  .adminres{
-      width: 140px;
-      margin-left: 180px;
-  }
+/***********************************
+ * Cette partie concerne la page
+ * de la fiche metier
+ * administrateur réseaux.
+ * ********************************/
 
-  #adminres{
-      padding: 75px 0px 75px 0px;
-      margin-left: 400px;
-  }
+.adminres{
+    width: 140px;
+    margin-left: 180px;
+}
 
-  #left
-  {
-      float: left;
-  }
+#adminres{
+    padding: 75px 0px 75px 0px;
+    margin-left: 400px;
+}
 
-  #adminresimg
-  {
-    display: inline;
+#left
+{
     float: left;
-    width: 300px;
-  }
+}
 
-  /***********************************
-   * Cette partie concerne la page
-   * de la fiche metier
-   * game designer.
-   * ********************************/
+#adminresimg
+{
+  display: inline;
+  float: left;
+  width: 300px;
+}
 
-  .game{
-      width: 140px;
-      margin-left: 180px;
-  }
+/***********************************
+ * Cette partie concerne la page
+ * de la fiche metier
+ * game designer.
+ * ********************************/
 
-  #game{
-      padding: 75px 0px 75px 0px;
-      margin-left: 400px;
-  }
+.game{
+    width: 140px;
+    margin-left: 180px;
+}
 
-  #left
-  {
-      float: left;
-  }
+#game{
+    padding: 75px 0px 75px 0px;
+    margin-left: 400px;
+}
 
-  #gameimg
-  {
-    display: inline;
+#left
+{
     float: left;
-  }
+}
 
-  /***********************************
-   * Cette partie concerne la page
-   * de la fiche metier
-   * sound designer.
-   * ********************************/
+#gameimg
+{
+  display: inline;
+  float: left;
+}
 
-  .sound{
-      width: 140px;
-      margin-left: 180px;
-  }
+/***********************************
+ * Cette partie concerne la page
+ * de la fiche metier
+ * ingenieur ia.
+ * ********************************/
 
-  #sound{
-      padding: 75px 0px 75px 0px;
-      margin-left: 400px;
-  }
+.ia{
+    width: 140px;
+    margin-left: 180px;
+}
 
-  #left
-  {
-      float: left;
-  }
+#ia{
+    padding: 75px 0px 75px 0px;
+    margin-left: 400px;
+}
 
-  #soundimg
-  {
-    display: inline;
+#left
+{
     float: left;
-  }
+}
 
-  /***********************************
-   * Cette partie concerne la page
-   * de la fiche metier
-   * ingenieur ia.
-   * ********************************/
+#iaimg
+{
+  display: inline;
+  float: left;
+}
 
-  .ia{
-      width: 140px;
-      margin-left: 180px;
-  }
+/***********************************
+ * Cette partie concerne la page
+ * de la fiche metier
+ * prof info.
+ * ********************************/
 
-  #ia{
-      padding: 75px 0px 75px 0px;
-      margin-left: 400px;
-  }
+.prof{
+    width: 140px;
+    margin-left: 180px;
+}
 
-  #left
-  {
-      float: left;
-  }
+#prof{
+    padding: 75px 0px 75px 0px;
+    margin-left: 400px;
+}
 
-  #iaimg
-  {
-    display: inline;
+#left
+{
     float: left;
-  }
+}
 
-  /***********************************
+#profimg
+{
+  display: inline;
+  float: left;
+}
+
+#test{
+  border: 10px #600110 solid;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+#testtext{
+  text-align: center;
+}
+
+/***********************************
+  * Cette partie concerne la page
+  * de la fiche metier
+  * sound designer.
+  * ********************************/
+
+.sound{
+    width: 140px;
+    margin-left: 180px;
+}
+
+#sound{
+    padding: 75px 0px 75px 0px;
+    margin-left: 400px;
+}
+
+#left
+{
+    float: left;
+}
+
+#soundimg
+{
+  display: inline;
+  float: left;
+}
+
+/***********************************
+ * Cette partie concerne la
+ * FAQ.
+ * ********************************/
+
+h3{
+  margin: 50px;
+}
+
+
+/* Partie modifiée */
+
+dt {
+  margin-top: 35px;
+  font-weight: bolder;
+  color: #4CB0DB;
+  margin-bottom: 15px;
+}
+
+/***********************************
  * Cette partie concerne les
  * rubrique que l'on a fait (actualité).
  * ********************************/
@@ -613,119 +693,6 @@ padding-top: 20px;
 font-size: smaller;
 font-style: italic;
 margin-top: -10px;
-}
-
-/***********************************
- * Cette partie concerne des
- * presentations (equipe).
- * ********************************/
-/*partie section page*/
-#equipe
-{
-    width: 90%;
-    margin-top: 2%;
-
-    margin-right: 5%;
-    margin-left: 5%;
-    display: inline-block;
-}
-
-/*Partie photo*/
-
-#equipe img
-{
-
-  width:300px;
-    height:300px;
-  overflow:hidden;
-    -webkit-border-radius:260px;
-    -moz-border-radius:260px;
-    border-radius:260px;
-    border: 5px #600110 solid;
-
-    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
-    transition: width 2s, height 2s, transform 2s;
-
-    display: inline-block;
-
-    margin: auto;
-
-}
-
-
-#equipe img:hover
-{
-
-   width: 500px;
-    height: 500px;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-
-}
-
-#equipe article
-{
-    margin-top: 5%;
-    display: inline-block;
-    width: 50%;
-    height: 50%;
-
-    text-align: center;
-    margin: auto;
-
-}
-
-#equipe .droite
-{
-    float: left;
-    clear: left;
-}
-
-#equipe .gauche
-{
-    float: right;
-}
-
-#equipe .centre
-{
-    display: block;
-    width: 550px;
-    height: 550px;
-    margin: auto;
-}
-
-#equipe article p
-{
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/***********************************
- * Cette partie concerne la page
- * de la fiche metier
- * prof info.
- * ********************************/
-
-.prof{
-    width: 140px;
-    margin-left: 180px;
-}
-
-#prof{
-    padding: 75px 0px 75px 0px;
-    margin-left: 400px;
-}
-
-#left
-{
-    float: left;
-}
-
-#profimg
-{
-  display: inline;
-  float: left;
 }
 
 /***********************************
