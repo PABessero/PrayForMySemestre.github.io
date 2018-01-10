@@ -51,15 +51,16 @@ nav a:hover{
  * principal du site.
  * ********************************/
 
-body{
-    font-family: 'PT Serif', serif;
-    color: #3F3F3F;
-    background-color: #1E1E1E;
-    background-image: url("images/background.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;}
+ body{
+     font-family: 'PT Serif', serif;
+     color: #3F3F3F;
+     background-color: #1E1E1E;
+     background-image: url("images/background.jpg");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     margin: -10px;}
 
 footer {
 	padding-top: 50px;
@@ -71,9 +72,14 @@ footer {
  * différentes balises.
  * ********************************/
 
-h1{
-    padding: 75px 0px 75px 0px;
-    font-variant: small-caps;}
+ h1{
+     padding: 75px 0px 75px 0px;
+     font-variant: small-caps;
+     font-size: 50px;
+     color: black;
+     font-weight: bold;
+     text-shadow: 4px 4px 8px white;
+ }
 
 h2{
     margin-top: 50px;
@@ -86,6 +92,15 @@ section h2{
 figure
 {
   display : inline;
+}
+
+header{
+  background-image: url("images/background-titre.jpg");
+  padding-top: 10px;
+}
+
+#accueilTitreSite{
+  text-decoration: none;
 }
 /***********************************
  * Cette partie concerne toutes
@@ -673,26 +688,25 @@ dt {
 * ********************************/
 
 .article1TitreDef{
-/*float: left;*/
-font-size: larger;
-font-weight: bold;
-color: #4CB0DB ;
-border-color: #600110;
-/*margin-left: 500px;*/
-margin: auto;
+  font-size: larger;
+  font-weight: bold;
+  color: #4CB0DB ;
+  margin: auto;
+  clear: left;
+  clear: right;
 }
 
 .article1dd{
-clear: left;
-margin-left: 200px;
-margin-right: 200px;
-padding-top: 20px;
+  clear: left;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 20px;
 }
 
 #articleWebographie{
-font-size: smaller;
-font-style: italic;
-margin-top: -10px;
+  font-size: smaller;
+  font-style: italic;
+  margin-top: -10px;
 }
 
 /***********************************
@@ -718,4 +732,74 @@ margin-top: -10px;
   font-weight: bold;
   color: #8C2B39 ;
   margin: auto;
+}
+
+/***********************************
+* Article 3
+* ********************************/
+
+.article3PoliceItalic{
+  font-style: italic;
+
+}
+
+#article3ListeD{
+  list-style-type: square;
+  display: inline-block;
+  float: right;
+  margin-right: 420px;
+  margin-bottom: 20px;
+}
+
+#article3ListeG{
+  list-style-type: square;
+  display: inline-block;
+  float: left;
+  margin-left: 420px;
+  margin-bottom: 20px;
+}
+
+#article3TexteReset{
+  clear:left;
+  clear: right;
+}
+
+/***********************************
+* Article 4
+* ********************************/
+
+.article4Table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.article4ContenuTable{
+    border: 3px solid black;
+    padding: 10px;
+    border-color: #8C2B39;
+}
+
+.article4TitreColonneTable{
+    border: 3px solid black;
+    padding: 10px;
+    border-color: #8C2B39;
+    color: #842E16;
+}
+
+/***********************************
+* Article 5
+* ********************************/
+
+.article5TexteGras{
+  font-weight: bold;
+  margin: inherit;
+  color: #8C2B39;
+}
+
+.article5TexteSouligne{
+  text-decoration: underline;
+  color: #4CB0DB;
 }
